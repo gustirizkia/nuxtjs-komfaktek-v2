@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         hmi: '#223b37',
       },
+      fontFamily: {
+        poppins: ['Poppins'],
+      },
     },
   },
   variants: {

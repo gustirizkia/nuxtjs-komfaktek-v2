@@ -11,9 +11,40 @@ export default {
         content:
           'Himpunan Mahasiswa Islam Komisariat Fakultas Teknik Cabang Ciputat',
       },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'terbinanya insan akademis, pencipta, pengabdi yang bernafaskan Islam, dan bertangung jawab atas terwujudnya masyarakat adil makmur yang diridhoi Allah SWT',
+      },
       { name: 'format-detection', content: 'telephone=083892870720' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        property: 'og:title',
+        content: 'HMI KOMFAKTEK | Melangkah Maju',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/png', href: '/logo.png' },
+      {
+        rel: 'shortcut icon',
+        hid: 'shortcut-icon',
+        type: 'image/png',
+        href: '/logo.png',
+      },
+      {
+        rel: 'apple-touch-icon',
+        hid: 'apple-touch-icon',
+        type: 'image/png',
+        href: '/logo.png',
+      },
+
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

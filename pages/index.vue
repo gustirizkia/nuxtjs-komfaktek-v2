@@ -74,7 +74,7 @@
             />
             <div>
               <div
-                class="md:font-medium font-bold md:text-2xl mt-2 md:block hidden"
+                class="md:font-medium font-bold md:text-xl mt-2 md:block hidden"
               >
                 Full-Stack Laravel Flutter: Build e-Wallet Mobile Apps lorem
               </div>
